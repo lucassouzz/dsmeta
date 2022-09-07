@@ -4,7 +4,7 @@ import NotificationButton from "./components/NotificationButton"
 
 
 function App() {
-  return (
+  return(
     <>
       <Header />
       <main>
