@@ -29,7 +29,7 @@ function SalesCard() {
         }).catch(err => {
             console.error(err);
         })
-    }, [minDate, maxDate]);
+    }, []);
 
     return (
         <>
