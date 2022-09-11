@@ -7,12 +7,14 @@ type Props = {
     saleId: number;
 }
 
+
 function handleClick(id :number) {
-    axios.get(`${BASE_URL}/sales/${id}/notification`).then(resp => {
+    axios.get(`${BASE_URL}/sales/${id}//notification`).then(resp => {
         console.log(resp)
     }).catch(err => {
         console.error(err);
-    });
+    })
+}, []);
 }
 
 function NotificationButton( {saleId} : Props) {
