@@ -20,7 +20,7 @@ function SalesCard() {
             console.log(resp);
             console.log('====================================');
         }).catch(err => {
-            console.log(err);
+
         })
     }, []);
 
